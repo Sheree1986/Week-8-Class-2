@@ -1,0 +1,45 @@
+
+
+.easy {
+	border: 1px solid blue;
+	flex: 1;
+}
+
+.quick {
+	border: 1px solid blue;
+	flex: 2;
+}
+
+.personal {
+	border: 1px solid blue;
+	flex: 1;
+}
+
+.flexparent {
+	border: 1px solid red;
+	display: flex;
+}
+
+.flexparent div {
+	padding: 10px;
+	margin: 5px;
+}
+
+
+.nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/* Hey browser, if the window is 600px wider or less, do the follow */
+
+@media only screen and (max-width: 600px) {
+.flexparent {
+  display: block;
+}
+
+  .nal ul { display: block;
+}}
+
